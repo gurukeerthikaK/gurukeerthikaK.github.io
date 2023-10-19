@@ -1,9 +1,9 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
 }
 .firstpage{
-    background-image: url('banner_image.jpg');
+    background-image: url('./pic/banner_image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -78,7 +78,7 @@
 }
 
 /* second page */
-*{
+/* *{
     margin: 0px;
     padding: 0px;
 }
@@ -134,15 +134,15 @@
 .para1-1 p{
     color: white;
     margin-left: 62px;
-}
+} */
 
 /* second page end */
 
 /* third page */
-.Thirdpage{
+/* .Thirdpage{
     width: 100%;
     height: 100vh;
-    background-image: url(pet_care_banner.png.jpg);
+    background-image: url(./pic/pet_care_banner.png.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -186,12 +186,12 @@
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgb(255 145 0 / 95%),rgb(255 145 0 / 67%) );
-}
+} */
 
 /* third page end */
 
 /* fourth page */
-.fouthpage{
+/* .fouthpage{
     width: 100%;
     height: 100vh;
     background-color: #1976D2;
@@ -233,20 +233,20 @@
     color: white;
     font-size: medium;
     font-weight: bold;
-}
+} */
 
 /* fourth page end*/ 
 
 /* fifth page */
-.fifthpage{
+/* .fifthpage{
     width: 100%;
     height: 100vh;
     display: flex;
     background-color: #4093e6;
-}
+} */
 
 /* fifth */
-.sixthpage{
+/* .sixthpage{
     width: 100%;
     height: 100vh;
     background-color: #1976D2;
@@ -313,4 +313,1012 @@
     padding-right: 53px;
     color: white;
     font-size: medium;
-    font-weight: bold;}
+    font-weight: bold;} */
+
+    /* .fa-brands{
+        color: black;
+        background-color: white;
+    
+        border: 5px solid white;
+        border-radius: 50%;
+    } */
+
+    /* seventhpage */
+
+    /* .seventhpage{
+        width: 100%;
+        height: 100vh;
+        background-color: #4093e6;
+    }
+    .header7{
+        width: 100%;
+        height: 30vh;
+    }
+    .title7{
+        color: white;
+        margin-left: 656px;
+    padding-top: 49px
+    }
+    .para7{
+        color: white;
+        margin-left: 528px;
+    padding-top: 18px;
+
+    }
+    .para7-1{
+        color: white;
+        margin-left: 538px;
+        padding-top: 6px;
+
+    }
+    .body7{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+    }
+    .rigth7{
+        width: 50%;
+        height: 70vh;
+        margin-left: 274px;
+    }
+    .left7{
+        width: 50%;
+        height: 70vh;
+        
+    }
+.section1{
+    height: 24vh;
+    
+    display: flex;
+}
+.section1 h1{
+    color: white;
+    margin-left: 15px;
+}
+.sec1-para1,.sec1-para2,.sec1-para3,.sec1-para4{
+    color:white;
+    margin-left: 16px;
+
+}
+.sec1-para1{
+    padding-top: 10px;
+}
+.eighthpage{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./pic/dr_Jenny.jpg');
+    background-size: cover;
+    
+    
+}
+.content8{
+   
+    width: 100%;
+    background: linear-gradient(rgba(255, 174, 0, 0.912),rgba(255, 174, 0, 0.912)); 
+    height: 100vh;
+
+}
+.para8,.para8-1,.para8-2{
+    color: white;
+    margin-left: 579px;
+    font-size: x-large;
+}
+.para8{
+    padding-top: 305px;
+}
+.para8-3{
+     color: white;
+     margin-left: 706px;
+    padding-top: 67px;
+}
+.para8-1{
+    margin-left: 577px;
+}
+.para8-2{
+    margin-left: 645px;
+}
+.ninethpage{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+.div1{
+    width: 40%;
+    height: 50vh;
+}
+.div2{
+    width: 20%;
+    height: 50vh;
+}
+.div3{
+    width: 20%;
+    height: 50vh;
+}
+.div4{
+    width: 20%;
+    height: 50vh;
+}
+.title8{
+    color: white;
+    margin-left: 35px;
+    padding-top: 70px;
+}
+.para1-9,.para2-9,.para3-9,.para4-9{
+    color: white;
+    margin-left: 39px;
+
+}
+.para1-9{
+    padding-top: 25px;
+}
+.img9{
+    display: flex;
+    padding: 2px;
+}
+.fa-brands{
+    color: black;
+    background-color: white;
+
+    border: 5px solid white;
+    border-radius: 50%;}
+.img9-2{
+    margin-left: 2px;
+}
+
+
+/* media query */
+
+/* @media(max-width:768px){
+    .firstheader{
+        flex-direction: column;
+    }
+    .firstpage{
+        background-image: url('./pic/banner_image.jpg');
+        background-size: cover;
+    }
+} */ 
+@font-face {
+    font-family: 'Wedding';
+    src: url('./fonts/Wedding-18394239/Wedding\ Script.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,.section-9{
+    font-family: Wedding;
+    font-size: 50px;
+}
+
+.firstpage {
+    background-image: linear-gradient(#1565c0d1,#0d47a187), url(./pic/banner_image.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+header.firstheader {
+    background: linear-gradient(#1976D2,#3085dad1 );
+    display: flex;
+    padding: 15px 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.firstheader .menu a {
+    color: #FFF;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.petlogo {
+    align-items: center;
+    width: 100px;
+}
+
+.firstheader .menu {
+    list-style: none;
+    display: flex;
+    padding-left: 7px;
+    font-size: large;
+}
+
+
+.menu li:first-child a {
+    padding-left: 0px;
+
+}
+.search {
+    display: none;
+}
+
+
+.firstheader .search {
+    background-color: transparent;
+    border: none;
+
+}
+
+.firstbody {
+
+    background-position: center;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.firstbody button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    border-radius: 24px;
+    margin-top: 20px;
+    padding: 10px 70px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.firstbody h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Main Banner CSS End */
+
+/*second section*/
+.justify-v-center {
+    justify-content: center;
+}
+
+
+.second-banner h2 {
+    font-size: 50px;
+    margin-bottom: 26px;
+
+}
+
+.inside-second {
+    text-align: center;
+    color: #FFF;
+    justify-content: center;
+
+}
+
+.second-banner {
+    background-color: #1976D2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+
+
+}
+
+.secondbannersection {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-position: top;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.secondbannersection h3 {
+    font-size: 30px;
+}
+
+
+/*section thrid*/
+
+.thrid-banner {
+    text-align: center;
+    background-image: linear-gradient(#e2e119bd, #deed52cc), url(./pic/pet_care_banner.png.jpg);
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    color: #FFF;
+
+}
+
+.thrid-banner h2 {
+    font-size: 50px;
+    margin-top: 8px;
+}
+
+.cricle.round p>strong {
+    font-size: 40px;
+}
+
+.round {
+    border: 8px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.round strong {
+    font-size: 32px;
+}
+
+.cricle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 100px;
+    align-items: center;
+
+}
+
+/*section4*/
+.fourth-banner {
+    background-color: dodgerblue;
+    background-position: center;
+    text-align: left;
+    color: #FFF;
+    padding: 100px 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.inside-fourth {
+    padding-top: 0px;
+    align-items: center;
+    padding-right: 0px;
+    font-size: 25px;
+}
+
+
+.inside-fourth button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 10px 70px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fourthimage img {
+    justify-content: space-between;
+
+    background-size: cover;
+    width: 100%;
+}
+
+/*section5*/
+
+
+.fifth-banner {
+    background-color: rgb(90, 150, 210);
+    background-position: center;
+    text-align: left;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.inside-fifth {
+    padding-top: 0%;
+    align-items: center;
+    padding-left: 0px;
+    font-size: 25px;
+}
+
+.inside-fifth button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 10px 70px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fifthimage img {
+    justify-content: space-between;
+
+    background-size: cover;
+    width: 100%;
+}
+
+/*section6*/
+.inside-six button {
+    background: #d2ba00;
+    color: white;
+    border: yellow;
+    padding: 10px 70px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.inside-six {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: rgb(6, 147, 255);
+    text-align: center;
+    padding: 10px;
+
+}
+
+.sixthin {
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-banner {
+    background-color: rgb(62 72 218);
+    background-position: center;
+    padding-top: 50px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.inside-second h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.pads {
+    padding: 50px;
+}
+
+
+
+/*section7*/
+
+.seven-banner {
+    background-color: rgb(16, 111, 207);
+    background-position: center;
+    padding-top: 50px;
+    color: #FFF;
+    font-size: 20px;
+
+}
+
+
+
+.sectionsub1>div>img {
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.sectionsub2>div>img {
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.sectionsub1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: center;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionsub2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*--section 8--*/
+
+
+.eight-banner {
+    background-image: linear-gradient(#ffff0082, #897d13a6), url(./pic/dr_Jenny.jpg);
+    color: white;
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 400px;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.eight-banner h2 {
+    font-size: 30px;
+}
+
+.eight-banner p {
+    font-size: 40px;
+
+}
+
+/*--section-9*/
+
+.section-9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.959);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Wedding';
+}
+
+.section-9>div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fa-brands {
+    background-color: #ffffff;
+    color: black;
+    border: 10px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.section-9 .fa-brands{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+/*----desktop view---*/
+
+@media (min-width:768px) {
+    header.firstheader {
+        flex-direction: row;
+    }
+
+    .firstheader .menu a {
+        padding: 5px 20px
+    }
+
+    .search {
+        display: block;
+    }
+
+    .secondbannersection {
+        flex-direction: row;
+    }
+
+    .cricle {
+        flex-direction: row;
+    }
+
+    .fourth-banner {
+        flex-direction: row;
+        text-align: left;
+        padding: 100px 100px;
+        width: 100%;
+    }
+
+    .inside-fourth {
+
+        padding-right: 15px;
+        width: 55%;
+        padding-left: 100px;
+    }
+
+    .fourthimage img {
+        padding-right: 100px;
+        margin: 0px;
+
+    }
+
+    .fifth-banner {
+        flex-direction: row;
+        text-align: left;
+        padding: 100px 100px;
+        width: 100%;
+    }
+
+    .fifthimage img {
+        padding-left: 100px;
+        width: 100%;
+        margin: 0px;
+        padding-right: 30px;
+    }
+
+    .inside-fifth {
+
+        padding-left: 15px;
+        width: 55%;
+        padding-right: 100px;
+
+    }
+
+    .sixthin {
+        flex-direction: row;
+    }
+
+    .sectionsub1 {
+        flex-direction: row;
+        padding-left: 200px;
+        padding-right: 200px;
+
+    }
+
+    .sectionsub2 {
+        flex-direction: row;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 50px;
+    }
+
+    .inside {
+        display: flex;
+    }
+
+    .section-9 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .block {
+        display: block;
+    }
+}
+/*----DESKTOP VIEW ENDS----*/
+
+/*----MOBILE VIEW STARTS----*/
+
+@media(max-width:767px) {
+
+    .firstpage {
+        font-size: 17px;
+    }
+
+    .petlogo img {
+        width: 100%;
+    }
+
+    .firstbody {
+        font-size: 18px;
+    }
+
+    .firstbody h1 {
+        font-size: 40px;
+    }
+
+    .menu li:first-child a {
+        padding-left: 5px;
+    }
+
+    header.firstheader {
+        padding: 15px 15px;
+    }
+
+    .firstheader .menu a {
+        color: #FFF;
+        padding: 5px 8px;
+
+    }
+
+    .firstbody {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .inside-second,
+    .secondbannersection {
+        padding: 0px 15px;
+
+    }
+
+    .secondbannersection h3 {
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    .secondbannersection div {
+        padding-bottom: 30px;
+    }
+
+    .second-banner {
+        font-size: 19px;
+    }
+
+    .second-banner h2 {
+        font-size: 35px;
+    }
+
+    .thridinside {
+        padding: 0px 15px;
+
+    }
+
+    .thridinside p {
+        font-size: 19px;
+    }
+
+    .thrid-banner h2 {
+        font-size: 40px;
+    }
+
+    .cricle {
+
+        padding: 80px 70px;
+    }
+
+    .fourthimage img {
+        margin-top: 20px;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fourth-banner {
+        background-color: dodgerblue;
+        background-position: center;
+        text-align: left;
+        color: #FFF;
+        padding: 70px 15px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .inside-fourth h1 {
+        font-size: 40px;
+    }
+
+    .inside-fourth p {
+        font-size: 19px;
+    }
+
+    .fifth-banner {
+        background-color: rgb(90, 150, 210);
+        background-position: center;
+        text-align: left;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        padding: 70px 15px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fifthimage img {
+        margin-top: 20px;
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+    }
+
+    .inside-fifth h1 {
+        font-size: 40px;
+    }
+
+    .inside-fifth p {
+        font-size: 19px;
+    }
+
+    .inside-second h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .sixth-banner p {
+        font-size: 18px;
+    }
+
+    .sectionsub1 {
+        padding: 0px 15px;
+        padding-top: 50px;
+    }
+
+    .sectionsub2 {
+        padding: 0px 15px;
+        padding-bottom: 50px;
+    }
+
+    .inside h2,
+    .paw {
+
+        text-align: center;
+    }
+
+    .eight-banner p {
+        font-size: 30px;
+        padding: 0px 15px;
+
+    }
+
+    .section-9>div>h2 {
+        text-align: center;
+    }
+
+    .section-9>div>p {
+        text-align: center;
+    }
+
+    .section-9>div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .section-9 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .icons {
+        text-align: center;
+    }
+
+}
+
+/*------MOBILE VIEW ENDS----*/
+
+
+/*-------TAB VIEW STARTS -----*/
+
+@media (min-width:768px) and (max-width:991px){
+    header.firstheader{
+        padding: 15px 20px;
+    }
+    .secondbannersection {
+        flex-direction: column;
+    }
+    .inside-second,
+    .secondbannersection {
+        padding: 0px 20px;
+
+    }
+    .secondbannersection h3 {
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+    .secondbannersection div {
+        padding-bottom: 40px;
+        padding-top: 15px;
+    }
+    .thridinside {
+        padding: 0px 20px;
+
+    }
+    .cricle{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .fourthimage img {
+        padding-right: 0px;
+        margin: 0px;
+    }
+
+    .fourth-banner {
+        flex-direction: row;
+        text-align: left;
+        padding: 100px 20px;
+        width: 100%;
+    }
+    .inside-fourth {
+        padding-right: 15px;
+        width: 70%;
+        padding-left: 0px;
+        
+    }
+    .fifth-banner {
+        flex-direction: row;
+        text-align: left;
+        padding: 100px 20px;
+        width: 100%;
+    }
+    .inside-fifth {
+        padding-left: 15px;
+        width: 55%;
+        padding-right: 0px;
+        font-size: 23px;
+        
+    }
+    .fifthimage img {
+        padding-right: 15px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .sixthin {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .sectionsub1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        padding-top: 50px;
+    }
+    .sectionsub2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        padding-bottom: 100px;
+    }
+    .inside h2,
+    .paw {
+
+        text-align: center;
+    }
+    .eight-banner p {
+        font-size: 35px;
+        padding: 0px 20px;
+
+    }
+    .section-9{
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    .section-9>div {
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    .fa-brands{
+        margin: 3px;
+    }
+}
